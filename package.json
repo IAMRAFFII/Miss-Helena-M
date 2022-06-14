@@ -1,5 +1,5 @@
 {
-    "name": "𝐀𝐫𝐜𝐭𝐢𝐜 × 𝐀𝐫𝐜𝐞𝐮𝐬 𝐢𝐧𝐜.",
+    "name": "Miss-Helena-MD",
     "version": "7.0.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -14,16 +14,16 @@
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
         "db": "node . --autocleartmp --db 'mongodb+srv://arctix:arctix@cluster0.o3gpk.mongodb.net/ArctixBot-MD?retryWrites=true&w=majority'"
     },
-    "homepage": "https://github.com/Sibuuu07",
+    "homepage": "https://github.com/RAFI-SER",
     "author": {
-        "name": "𝐀𝐫𝐜𝐭𝐢𝐜 × 𝐀𝐫𝐜𝐞𝐮𝐬 𝐢𝐧𝐜."
+        "name": "Miss-Helena-MD"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Sibuuu07/zim-bot"
+        "url": "git+https://github.com/RAFI-SER/Miss-Helena-MD"
     },
     "bugs": {
-        "url": "https://github.com/Sibuuu07/zim-bot"
+        "url": "https://github.com/RAFI-SER/Miss-Helena-MD"
     },
     "license": "MIT",
     "dependencies": {
