@@ -1,0 +1,27 @@
+{
+  "name": "𝐌𝐈𝐒𝐒 𝐇𝐄𝐋𝐄𝐍𝐀 𝐌𝐃",
+  "description": "miss helena md bot build with nodejs",
+  "repository": "https://github.com/RAFI-SER/Miss-Helena-MD",
+  "logo": "https://te.legra.ph/file/03eee4a41ffd3be581651.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
